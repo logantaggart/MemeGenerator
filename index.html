@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Memegen.css">
+</head>
+<body>
+    <div class="info">
+    <h1>
+        Custom Meme Generator
+    </h1>
+    <h3>
+        Fill out the Following Lines to Create your Meme!
+    </h3>
+    <br>
+    <form action="" id="add">
+        <section class="secspace">
+            <label>Meme Image URL:</label>
+            <br>
+            <input type="text" placeholder="Please Link your Meme Image" id="pic">
+            <br>
+        </section>
+        <section class="secspace">
+            <label>Meme Top Text:</label>
+            <br>
+            <input type="text" label="Top Text" placeholder="Enter the Top Text" id="top">
+            <br>
+        </section>
+        <section class="secspace">
+            <label>Meme Bottom Text:</label>
+            <br>
+            <input type="text" label="Bottom Text" placeholder="Enter the Bottom Text" id="bottom">
+        </section>
+            <input type="submit" value="Generate Meme">
+    </form>
+    </div>
+    <div>
+    <ul id="memes">
+    </ul>
+    </div>
+    <script src="Memegen.js"></script>
+</body>
+</html>

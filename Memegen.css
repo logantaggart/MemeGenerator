@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.info {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+label {
+    text-decoration: underline;
+    position: relative;
+    left: 3%;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"] {
+    width: 75vw;
+    height: 25px;
+    position: relative;
+    left: 15%;
+}
+
+input[type="submit"] {
+    background-color: rgb(85, 145, 236);
+    color: white;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    position: relative;
+    left: 80%;
+}
+
+li {
+    width: 350px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+img {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+h4 {
+    display: inline-block;
+    width: 350px;
+    position: relative;
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-size: 1.25rem;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.secspace {
+    margin-bottom: 15px;
+}
